@@ -1,4 +1,4 @@
-# <a href="url"><img src="https://cdn3.iconfinder.com/data/icons/egg/500/Egg_food_cracked_whipped-512.png" align="middle" width="100" height="100"></a> simple_shell
+# <a href="url"><img src="https://cdn2.iconfinder.com/data/icons/summer-flat-11/272/summer-sea-shell-beach-seashell-pearl-collect-256.png" align="middle" width="100" height="100"></a> simple_shell
 
 
 ## Table of Contents
@@ -64,7 +64,7 @@ Standard functions and system calls employed in simple_shell include:
 
 ## Requirements
 
-simple_shell is designed to run in the `Ubuntu 14.04 LTS` linux environment and to be compiled using the GNU compiler collection v. `gcc 4.8.4` with flags`-Wall, -Werror, -Wextra, and -pedantic.`
+simple_shell is designed to run in the `Ubuntu 20.04 LTS` linux environment and to be compiled using the GNU compiler collection v. `gcc` with flags`-Wall, -Werror, -Wextra, -pedantic, -std=gnu89`
 
 ## Installation
 
@@ -103,39 +103,10 @@ The simple_shell is designed to execute commands in a similar manner to sh, howe
 - [ ] help
 - [ ] history
 
-## Example of Use
-Run the executable in your terminal after compiling:
-```
-$ ./hsh
-$ # This is our rendition of the shell
-$ ls -al
-total 100
-drwxrwxr-x  3 vagrant vagrant  4096 Jul 19 22:49 .
-drwxr-xr-x 14 vagrant vagrant  4096 Jul 17 22:37 ..
--rw-rw-r--  1 vagrant vagrant   144 Jul 19 17:16 AUTHORS
--rw-rw-r--  1 vagrant vagrant  2367 Jul 19 22:33 builtins2.c
--rw-rw-r--  1 vagrant vagrant  2764 Jul 19 22:14 builtins.c
--rw-rw-r--  1 vagrant vagrant   710 Jul 16 01:03 environment.c
--rw-rw-r--  1 vagrant vagrant  1217 Jul 16 03:24 errors.c
-drwxrwxr-x  8 vagrant vagrant  4096 Jul 19 22:34 .git
--rwxrwxr-x  1 vagrant vagrant 32287 Jul 19 22:34 hsh
--rw-rw-r--  1 vagrant vagrant  1792 Jul 19 22:12 man_1_simple_shell
--rw-rw-r--  1 vagrant vagrant   484 Jul 15 20:09 memory_allocation.c
--rw-rw-r--  1 vagrant vagrant  1273 Jul 18 21:00 new_strtok.c
--rw-rw-r--  1 vagrant vagrant  3427 Jul 19 22:06 path.c
--rw-rw-r--  1 vagrant vagrant  2347 Jul 19 22:49 README.md
--rw-rw-r--  1 vagrant vagrant  1769 Jul 19 22:04 shell.h
--rw-rw-r--  1 vagrant vagrant  1480 Jul 18 21:15 simple_shell.c
--rw-rw-r--  1 vagrant vagrant  2111 Jul 16 01:10 strfunc.c
--rw-rw-r--  1 vagrant vagrant   719 Jul 19 21:46 tokenize.c
-```
-## Bugs
-At this time, there are no known bugs.
-
 ## Authors
-Alexa Orrico | [GitHub](https://github.com/alexaorrico) | [Twitter](https://twitter.com/alexa_orrico)
+Echonwere Glory | [GitHub](https://github.com/Gloriland) | [Twitter](https://twitter.com/glorri_prince)
 
-John Cottrell | [GitHub](https://github.com/johncottrell) | [Twitter](https://twitter.com/johnpeterco)
+Ogunsanya Adeola | [GitHub](https://github.com/Aveolar) | [Twitter](https://twitter.com/Eloeda)
 
 ## License
 simple_shell is open source and therefore free to download and use without permission.
